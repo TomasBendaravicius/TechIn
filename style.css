@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+ 
+  color: #384047;
+  opacity: 0.9;
+  font-size: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+/* Jūsų CSS prasideda čia */
+
+body {
+  width: 350px;
+  margin: 0 auto;
+  border: none;
+}
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+form {
+  background-color: #f2f2f2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input,
+textarea {
+  background-color: #e2e7e1;
+  border: none;
+}
+textarea {
+  width: 95%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+#email {
+  width: 95%;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+#name {
+  height: 40px;
+  width: 95%;
+  margin-bottom: 1rem;
+}
+#mail {
+  width: 95%;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+#password {
+  width: 95%;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+#job {
+  width: 95%;
+  background-color: #e2e7e1;
+  border: none;
+  margin-bottom: 20px;
+  opacity: 0.4;
+}
+
+button {
+  margin: 1em;
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(81, 201, 91);
+  color: white;
+  border: none;
+}
+span {
+  background-color: rgb(81, 201, 91);
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 1em;
+}
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-top: 1.5em;
+}
